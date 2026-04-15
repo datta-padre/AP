@@ -354,6 +354,140 @@
 **95. Security related काय सावधानी घेतल्या पाहिजेत?**
 - उत्तर: SQL injection रोखण्यासाठी parameterized queries, sensitive data encrypt करणे
 
+# 📱 **Android Viva Questions (मराठीत)**
+
+## 🔹 Activity & Lifecycle
+
+1. Activity म्हणजे काय?
+   👉 App मधील एक स्क्रीन.
+
+2. Activity Lifecycle काय आहे?
+   👉 Activity चा life cycle:
+   onCreate → onStart → onResume → onPause → onStop → onDestroy
+
+3. `onCreate()` कधी call होते?
+   👉 Activity सुरू होताना.
+
+4. `onPause()` म्हणजे काय?
+   👉 Activity थोडी hidden होते.
+
+5. `onStop()` म्हणजे काय?
+   👉 Activity पूर्ण hidden होते.
+
 ---
 
-**Note:** प्रत्येक प्रश्नाचे उत्तर comprehensive आहे आणि परीक्षकाला समाधानकारक असावे.
+## 🔹 Intent
+
+6. Intent म्हणजे काय?
+   👉 एक Activity मधून दुसऱ्यात जाण्यासाठी वापरतो.
+
+7. Intent चे प्रकार?
+   👉 Explicit आणि Implicit.
+
+8. `putExtra()` कशासाठी वापरतो?
+   👉 Data पाठवण्यासाठी.
+
+9. Data कसा receive करतो?
+   👉 `getIntent().getStringExtra()`
+
+---
+
+## 🔹 UI Components
+
+10. TextView म्हणजे काय?
+    👉 Text दाखवण्यासाठी.
+
+11. EditText म्हणजे काय?
+    👉 User कडून input घेण्यासाठी.
+
+12. Button म्हणजे काय?
+    👉 Click action साठी.
+
+13. Toast म्हणजे काय?
+    👉 छोटा popup message.
+
+---
+
+## 🔹 Layouts
+
+14. LinearLayout म्हणजे काय?
+    👉 Row किंवा Column मध्ये views ठेवतो.
+
+15. RelativeLayout म्हणजे काय?
+    👉 Views एकमेकांच्या relation मध्ये ठेवतो.
+
+16. ConstraintLayout म्हणजे काय?
+    👉 Advanced flexible layout आहे.
+
+---
+
+## 🔹 Fragment
+
+17. Fragment म्हणजे काय?
+    👉 Activity चा छोटा भाग.
+
+18. Fragment का वापरतो?
+    👉 Reusable UI साठी.
+
+---
+
+## 🔹 ListView / Spinner
+
+19. ListView म्हणजे काय?
+    👉 List दाखवण्यासाठी.
+
+20. Spinner म्हणजे काय?
+    👉 Dropdown list.
+
+21. Adapter म्हणजे काय?
+    👉 Data UI ला जोडतो.
+
+---
+
+## 🔹 Login / Form
+
+22. Login validation कसे करतो?
+    👉 Email आणि password compare करून.
+
+23. Toast का वापरतो?
+    👉 Message दाखवण्यासाठी.
+
+---
+
+## 🔹 Calculator
+
+24. Calculator app कसा काम करतो?
+    👉 Input → Calculation → Result
+
+---
+
+## 🔹 Date & Time
+
+25. DatePickerDialog म्हणजे काय?
+    👉 Date select करायला.
+
+26. TimePickerDialog म्हणजे काय?
+    👉 Time select करायला.
+
+---
+
+## 🔹 GridView / Gallery
+
+27. GridView म्हणजे काय?
+    👉 Grid मध्ये images दाखवतो.
+
+28. Permission का लागते?
+    👉 Storage access साठी.
+
+---
+
+## 🔹 Basic Components
+
+29. CheckBox म्हणजे काय?
+    👉 Multiple selection.
+
+30. RadioButton म्हणजे काय?
+    👉 Single selection.
+
+31. ToggleButton म्हणजे काय?
+    👉 ON/OFF switch.
